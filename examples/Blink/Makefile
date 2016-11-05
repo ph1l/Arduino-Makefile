@@ -1,7 +1,8 @@
 # Arduino Make file. Refer to https://github.com/sudar/Arduino-Makefile
 
-BOARD_TAG    = uno
-include ../../Arduino.mk
+BOARD_TAG 	 = teensy31
+ARDUINO_DIR = $(HOME)/arduino-1.6.12
+include ../../Teensy.mk
 
 
 
